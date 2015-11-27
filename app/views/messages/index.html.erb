@@ -1,0 +1,7 @@
+<h1>Firehose Quiz Messages</h1>
+
+<% @messages.each do |message| %>
+	<p>Subject: <%= message.subject %></p>
+	<p>Message: <%= message.text %></p>
+	<hr>
+<% end %>
